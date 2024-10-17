@@ -68,8 +68,8 @@ class MazeGame:
         base_path = "/Users/vishanamarnath/Library/CloudStorage/OneDrive-HagleyCommunityCollege/Maze 2024/"
         self.floor_image = ImageTk.PhotoImage(Image.open(base_path + "floor.png").resize((self.cell_size, self.cell_size)))
         self.wall_image = ImageTk.PhotoImage(Image.open(base_path + "wall.png").resize((self.cell_size, self.cell_size)))
-        self.player_image = ImageTk.PhotoImage(Image.open(base_path + "player.png").resize((self.cell_size, self.cell_size)))
-        self.goal_image = ImageTk.PhotoImage(Image.open(base_path + "goal.png").resize((self.cell_size, self.cell_size)))
+        self.player_image = ImageTk.PhotoImage(Image.open(base_path + "Batt1.png").resize((self.cell_size, self.cell_size)))
+        self.goal_image = ImageTk.PhotoImage(Image.open(base_path + "Car1.png").resize((self.cell_size, self.cell_size)))
 
     def draw_maze(self):
         """Draw the maze on the canvas."""
